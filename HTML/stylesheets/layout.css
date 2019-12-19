@@ -1,0 +1,816 @@
+/*
+* Skeleton V1.2
+* Copyright 2011, Dave Gamache
+* www.getskeleton.com
+* Free to use under the MIT license.
+* http://www.opensource.org/licenses/mit-license.php
+* 6/20/2012
+*/
+
+/* Table of Content
+==================================================
+	#Site Styles
+	#Page Styles
+	#Media Queries
+	#Font-Face */
+
+/* #Site Styles
+================================================== */
+* {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+body{
+background: url(../images/bg.png) repeat; 
+}
+/*bands*/
+.band {
+	background: #fafafa repeat;
+	padding: 7px;
+}
+
+.band.head{
+	background: repeat #3fa0d8;
+}
+
+/*HEADER*/
+header.main{
+	padding-bottom: 0px;
+}
+
+header h1.logo a{
+	width:326px;
+	height: 47px;
+	display: block;
+	background: url(../images/logo.png) no-repeat 0 0;
+	font: 0/0 a;
+	text-shadow: none;
+	color: transparent;
+	margin: 30px 0px;
+}
+
+header p{
+	text-align:right;
+	margin-top: 10px;
+	margin-right: 80px;
+}
+
+header p a{
+	font-family: arial;
+	font-size: 13px;
+	text-decoration: none;
+	color: #5a5a5a;
+}
+
+header p a:hover{
+	color: #3fa0d8;
+}
+
+header .cart{
+	color:#9a9a9a;
+
+}
+
+/*NAVIGATION*/
+.to/pnav{
+	float:left;
+	margin-right: 5px;
+	width: 80%;
+}
+
+nav{
+	background: url(../images/bg_nav.png) repeat #242424;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -khtml-border-radius: 4px;
+    border-radius: 4px;
+	
+}
+
+nav.primary ul,
+nav.primary ul li {
+	margin: 0px;
+}
+
+nav.primary ul li{
+	display: inline;
+	float: left;
+	position: relative;
+}
+
+nav.primary ul li a {
+	display: inline-block;
+	padding: 0 20px;
+	line-height: 49px;
+	color:#a7a7a7;
+	font-family: arial;
+	font-size: 15px;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+
+nav.primary li:first-child{
+	background: none;
+}
+
+nav.primary li {
+	background: transparent url(../images/li_nav.png) no-repeat left center;
+}
+
+nav.primary li a:hover{
+	color:#388dbd;
+}
+
+.search{
+	float: left;
+	width: 200px;
+	height: 20px;
+	-moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -khtml-border-radius: 6px;
+    border-radius: 6px;
+	background: #707070;
+	padding-left: 6px;
+	margin-top: 15px;
+	rig/ht: 40px;
+	pos/ition: absolute;
+}
+
+nav.primary input{
+	font: 11px/14px verdana,"Lucida Grande", "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color: #b3b3b3;
+	border: none;
+	width:170px;
+	height:20px;
+    float: left;
+    margin-right: 0px;
+	padding: 0px;
+	background-color: #707070;
+}
+
+nav.primary input:hover {
+	color: #b3b3b3;
+	border: none;    
+}
+
+.navi{
+	background-color: #fff;
+	border: 1px solid #dedede;
+	 -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -khtml-border-radius: 3px;
+    border-radius: 3px;
+	height: 35px;
+	padding: 5px 15px;
+}
+
+.navi a{
+	color:#757575;
+	font-family: arial;
+	font-size: 12px;
+	text-decoration: none;
+}
+
+.navi a:hover{
+	color:#3fa0d8;
+}
+
+.clear{
+   clear: both;
+   height: 1px;
+}
+
+/*SIDEBAR*/
+.sidebar{
+
+}
+
+.sidebar h1{
+	backgro/und: url(../images/sidebar.png) transparent no-repeat;
+	background-color: #5a5a5a;
+	border-top-left-radius: 4px;
+	border-top-right-radius: 4px;
+	font-family: 'BreeSerifRegular', arial;
+	font-size: 18px;
+	font/-weight: bold;
+	color: #ffffff;
+	padding-left: 20px;
+	margin-bottom: -10px;
+	border-bottom: #404040 1px solid;
+	width: 100%;
+	padding-bottom: 10px;
+}
+
+.sidebar ul{
+	padding-top: -10px;
+}
+
+.sidebar li{
+	list-style: none;
+	backgro/und-color: #e8e8e8;
+	line-height: 35px;
+	margin-bottom: 1px;
+	border-bottom: #c1c1c1 1px solid;
+	pa/dding-left: 10px;
+	font-family: arial;
+	font-size: 12px;
+}
+
+.sidebar li:last-child{
+	border-bottom: #c1c1c1 1px solid;
+	border-bottom-left-radius: 4px;
+	border-bottom-right-radius: 4px;
+} 
+
+.sidebar li a{
+	text-decoration: none;
+	display: block;
+	padding-left: 20px;
+	background: url(../images/side_a.png) no-repeat #e8e8e8;
+	background-position: 90% 50%;
+}
+
+.sidebar li a:hover{
+	backgrou/nd-color: #d2d2d2;
+	line-height: 35px;
+	background: url(../images/side_b.png) no-repeat #d2d2d2;
+	background-position: 90% 50%;
+	color: #3fa0d8;
+}
+
+
+.detail{
+	background: #fff;
+	border: 1px solid #dedede;
+	-moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -khtml-border-radius: 3px;
+    border-radius: 3px;
+	margin-top: 15px;
+	padding-bottom: 30px;
+	hei/ght: 100%;
+	width: 100%;
+	posit/ion: absolute;
+}
+
+
+.detail_img{
+	positi/on:relative;
+	background: #fff;
+	border: 1px solid #dedede;
+	-moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -khtml-border-radius: 3px;
+    border-radius: 3px;
+	margin-top: 18px;
+	text-align:center;
+	top: 50%;
+	height: 195px;
+	width: 100%;
+}
+
+.detail_img .big{
+	vert/ical-align: middle;
+	top: 50%;
+}
+
+
+.detail_img_small{
+	background: #fff;
+	border: 1px solid #dedede;
+	-moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -khtml-border-radius: 3px;
+    border-radius: 3px;
+	margin-top: 10px;
+	text-align:center;
+}
+
+.detail_img_small .small{
+	margin-right: 15px;
+}
+
+.detail_product{
+	posit/ion:relative;
+	background: #fff;
+	border: none;
+	margin-top: 18px;
+}
+
+.detail_product h1{
+	font-family: 'BreeSerifRegular', arial;
+	font-size: 18px;
+	border-bottom: 2px solid #707070;
+	color: #5a5a5a;
+}
+
+.detail_product .col{
+	font-size: 14px;
+	width: 130px;
+	float: left;
+	font-family: 'BreeSerifRegular', arial;
+	font-weight: none;
+}
+
+.detail_product .coll{
+	font-size: 12px;
+	width: 180px;
+	float: left;
+}
+
+.detail_product .colq{
+	font-size: 12px;
+	width: 60px;
+	float: left;
+	height: 27px;
+}
+
+.detail_product .colqq{
+	font-size: 12px;
+	width: 100px;
+	float: left;
+	eight: 27px;
+}
+
+.detail_product .price{
+	font-size: 24px;
+	width: 180px;
+	float: left;
+	font-family: 'BreeSerifRegular', arial;
+}
+
+.detail_product .row {
+	clear: both;
+	width: 335px;
+}
+
+.detail_product .row_qty {
+	clear: both;
+	width: 335px;
+	height: 50px;
+}
+
+.detail_product .select {
+	width: 50px;
+	margin: 0px 0 0px 0px;
+	padding: 1px;
+}
+
+.detail_description{
+	margin: 35px 0;
+}
+
+.detail_description h1{
+	font-size: 18px;
+	color: #5a5a5a;
+	font-we/ight: bold;
+	border-bottom: 2px solid #707070;
+	font-family: 'BreeSerifRegular', arial;
+}
+
+.detail_description p{
+	font-size: 12px;
+	font-family: arial;
+}
+
+/*PRODUCT*/
+
+.produ/ct:nth-child{margin-left: 0px;
+}
+
+.product{
+	w/idth: 220px;
+	height: 310px;
+	fl/oat: left;
+	border: 1px solid #dedede;
+	mar/gin-left: 20px;
+	margin-bottom: 25px;
+	text-align: center;
+	background: #efefef;
+	-moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -khtml-border-radius: 4px;
+    border-radius: 4px;
+}
+
+.product_more{
+	
+	height: 310px;
+	border: 1px solid #5a5a5a;
+	margin-bottom: 25px;
+	text-align: center;
+	background: #5a5a5a;
+	-moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -khtml-border-radius: 4px;
+    border-radius: 4px;
+}
+
+.product:hover{
+	-moz-box-shadow: 0 0 5px #888;
+	-webkit-box-shadow: 0 0 5px#888;
+	box-shadow: 0 0 5px #888;
+}
+
+.product_more:hover{
+	-moz-box-shadow: 0 0 5px #888;
+	-webkit-box-shadow: 0 0 5px#888;
+	box-shadow: 0 0 5px #888;
+}
+
+.product figure{
+	background: #fff;
+	height: 60%;
+}
+
+.product_more figure{
+	background: url(../images/more_product.png) no-repeat bottom center;
+	margin-bottom: 0px;
+	height: 60%;
+	border-color:#5a5a5a;
+}
+
+.product_more p{
+	font-size: 13px;
+	font-w/eight: bold;
+	margin-top: 80px;
+	text-decoration: none;
+}
+
+.product_more a{
+	text-decoration: none;
+	color: #fff;
+	font-family: 'BreeSerifRegular', arial;
+}
+
+.product_more a:hover{
+	color: #3fa0d8;
+}
+
+
+.product h1{
+	color: #717171;
+	font-size:16px;
+	line-height: 30px;
+	margin-bottom: 0px;
+	font-family: 'BreeSerifRegular', arial;
+}
+
+.product h2{
+	color: #717171;
+	font-size:30px;
+	line-height: 30px;
+	margin-bottom: 15px;
+	font-family: 'BreeSerifRegular', arial;
+}
+
+
+.addcart {
+	background: url(../images/addcart_a.png) no-repeat;
+	width: 92px;
+	height: 27px;
+	display: block;
+	font: 0/0 a;
+	text-shadow: none;
+	color: transparent;
+	margin-top: 10px;
+}
+
+.addcart_detail {
+	background: url(../images/addcart_a.png) no-repeat;
+	width: 92px;
+	height: 27px;
+	display: block;
+	font: 0/0 a;
+	text-shadow: none;
+	color: transparent;
+	margin-top: 0px;
+
+}
+
+.addcart:hover{
+	background: url(../images/addcart_b.png) no-repeat;
+}
+
+.addcart_detail:hover{
+	background: url(../images/addcart_b.png) no-repeat;
+}
+
+/*FOOTER*/
+
+footer{
+	
+}
+
+footer.primary ul,
+footer.primary ul li {
+	margin: 0px;
+}
+
+footer.primary ul li{
+	display: inline;
+	float: left;
+	position: relative;
+}
+
+footer.primary ul li a {
+	display: inline-block;
+	padding: 30px 10px 0px 10px;
+	line-height: 20px;
+	color:#a7a7a7;
+	font-family: arial;
+	font-size: 15px;
+	font-weight: bold;
+	te/xt-transform: uppercase;
+	text-decoration: none;
+}
+
+footer.primary li:first-child{
+	background: none;
+}
+
+footer.primary li {
+	background: none;
+}
+
+footer.primary li a:hover{
+	color:#388dbd;
+}
+
+footer p{
+	margin: 20px 10px 25px 10px;
+	float: left;
+	color: #616161;
+}
+
+footer .logo{
+	background: transparent url(../images/logo_foot.png) no-repeat center right;
+	wi/dth: 186px;
+	height: 27px;
+	padding: 30px 0px;
+	text-align:right;
+}
+
+.band.footer{
+	background: url(../images/bg_nav.png) repeat #242424;
+}
+
+
+
+/*
+ * jQuery FlexSlider v2.0
+ * http://www.woothemes.com/flexslider/
+ *
+ * Copyright 2012 WooThemes
+ * Free to use under the GPLv2 license.
+ * http://www.gnu.org/licenses/gpl-2.0.html
+ *
+ * Contributing author: Tyler Smith (@mbmufffin)
+ */
+/* Browser Resets */
+.flex-container a:active,
+.flexslider a:active,
+.flex-container a:focus,
+.flexslider a:focus  {outline: none;}
+.slides,
+.flex-control-nav,
+.flex-direction-nav {margin: 0; padding: 0; list-style: none;} 
+
+/* FlexSlider Necessary Styles
+*********************************/ 
+.flexslider {margin: 0; padding: 0;}
+.flexslider .slides > li {display: none; -webkit-backface-visibility: hidden;} /* Hide the slides before the JS is loaded. Avoids image jumping */
+.flexslider .slides img {width: 100%; display: block;}
+.flex-pauseplay span {text-transform: capitalize;}
+
+/* Clearfix for the .slides element */
+.slides:after {content: "."; display: block; clear: both; visibility: hidden; line-height: 0; height: 0;} 
+html[xmlns] .slides {display: block;} 
+* html .slides {height: 1%;}
+
+/* No JavaScript Fallback */
+/* If you are not using another script, such as Modernizr, make sure you
+ * include js that eliminates this class on page load */
+.no-js .slides > li:first-child {display: block;}
+
+/*NAV SLIDE*/
+.flesxslider{
+	margin: 30px 0;
+}
+
+figure {
+padding: 6px;
+border: 2px solid #fff;
+line-height: 0px;
+}
+
+.flex-control-nav{
+	width: 100%;
+	text-align: right;
+	margin: -60px -10%;
+	position: absolute;
+}
+
+.flex-control-nav li{
+	display: inline;
+	margin: 0 5px;
+}
+
+.pagi/nation li a{
+  background: transparent url(images/slider-nav.png) no-repeat top left;
+  padding-left: 10px;
+  width: 0;
+  height: 21px;
+  display: block;
+  overflow: hidden;
+}
+
+.paginat/on li.current a{
+  background-position: top right;
+}
+
+
+.flex-control-nav li a{
+	background: transparent url(../images/nav.png) no-repeat top left;
+	padding-left: 10px;
+	display: inline-block;
+	width: 0;
+	height: 20px;
+	font: 0/0 a;
+	text-shadow: none;
+	color: transparent;
+	bo/rder-radius: 18px;
+	-mo/z-border-radius: 18px;
+    -web/kit-border-radius: 18px;
+    -khtm/l-border-radius: 18px;
+	backgr/ound:#e2e2e2;
+	borde/r: 1px solid #e2e2e2;
+}
+
+.flex-control-nav li a:hover {
+	background-position: top right;
+	backgro/und-color: #3fa0d8;
+	bord/er: 1px solid #3fa0d8;
+}
+
+.flex-control-nav .flex-active{
+	background-position: top right;
+	b/ackground-color: #3fa0d8;
+}
+
+.flex-control-nav li a.visited{
+	background-position: top right;
+	ba/ckground-color: #3fa0d8;
+}
+
+.flex-direction-nav{
+	width: 100%;
+	margin-top: -50%;
+	position: absolute;
+}
+
+.flex-direction-nav { height: 31px; }
+
+
+.flex-direction-nav a{
+	width: 25px; 
+	height: 31px; 
+	margin: 25% 0 0; 
+	display: inline-block; 
+	background: url(../images/next_prev.png) no-repeat; 
+	position: absolute; 
+	top: -20px; 
+	cursor: pointer; 
+	text-indent: -99999em;
+}
+
+.flex-direction-nav .flex-prev{
+	left: 25px;
+}
+
+.flex-direction-nav .flex-next{
+	background-position: top right;
+    right: 35px;
+}
+
+.fl/ex-direction-nav li a {
+	width: 25px; 
+	height: 31px; 
+	margin: 20px 0px 0; 
+	display: inline-block; 
+	background: url(../images/next_prev.png) no-repeat; 
+	position: absolute; 
+	top: 50%; 
+	cursor: pointer; 
+	text-indent: -99999em;
+}
+
+.fle/x-direction-nav li .next {
+    backgr/und-position: -52px 0; ri/ght: -21px;
+	background-position: top right;
+	width: 31px;
+}
+
+.flex-dir/ection-nav li .prev {
+    lef/t: -20px;
+	background-position: top left;
+	width: 31px;
+}
+
+
+.f/lex-next{
+	backgrou/nd-position: top right;
+	background: url(../images/next_prev.png) no-repeat top right; 
+	height: 31px;
+	width: 19px;
+	display: block;
+	margin: -13% 93%;
+	mar/gin: -2% 93%;
+	font: 0/0 a;
+	text-shadow: none;
+	color: transparent;
+	position:absolute;
+}
+
+.f/lex-prev {
+	backgro/nd-position: top left;
+	background: url(../images/next_prev.png) no-repeat top left; 
+	height: 31px;
+	width: 19px;
+	display: block;
+	margin: 0% 3%;
+	font: 0/0 a;
+	text-shadow: none;
+	color: transparent;
+	position: absolute;
+}
+
+
+.flex-caption{
+	top: 55%;
+	margin-left: 8px;
+	position: absolute;
+	height: 30%;
+	width: 5%;
+	background: transparent url(../images/black_opacity.png) repeat;
+	
+}
+
+.flex-caption h1{
+	color: #fefefe;
+	mar/gin-top: 10px;
+	font-/size: 36px;
+	margin-left: 10px;
+	font-family: 'BreeSerifRegular', arial;
+}
+
+.flex-caption p{
+	fo/nt-size: 12px;
+	color: #c3c3c3;
+	margin-left: 10px;
+	font-family: arial;
+}
+
+
+/* #Page Styles
+================================================== */
+
+/* #Media Queries
+================================================== */
+
+	/* Smaller than standard 960 (devices and browsers) */
+	@media only screen and (max-width: 959px) {}
+
+	/* Tablet Portrait size to standard 960 (devices and browsers) */
+	@media only screen and (min-width: 768px) and (max-width: 959px) {}
+
+	/* All Mobile Sizes (devices and browser) */
+	@media only screen and (max-width: 767px) {}
+
+	/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+	@media only screen and (min-width: 480px) and (max-width: 767px) {}
+
+	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+	@media only screen and (max-width: 479px) {}
+
+
+/* #Font-Face
+================================================== */
+/* 	This is the proper syntax for an @font-face file
+		Just create a "fonts" folder at the root,
+		copy your FontName into code below and remove
+		comment brackets */
+
+	@font-face {
+	    font-family: 'BreeSerifRegular';
+	    src: url('../BreeSerif-Regular-webfont.eot');
+	    src: url('../BreeSerif-Regular-webfont.eot?iefix') format('eot'),
+	         url('../BreeSerif-Regular-webfont.woff') format('woff'),
+	         url('../BreeSerif-Regular-webfont.ttf') format('truetype'),
+	         url('../BreeSerif-Regular-webfont.svg#BreeSerifRegular') format('svg');
+	    font-weight: normal;
+	    font-style: normal; }
+
+
